@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athena Academia</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap">
+    <style>
+        /* 内联样式，确保图片能正确显示 */
+        .hero {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/hero-bg.jpg') !important;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Athena Academia</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Athena Academia</h1>
+            <p>Excellence in Education</p>
+            <a href="#contact" class="btn">Get Started</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2>About Athena Academia</h2>
+                <p>At the heart of Athena Academia stands its founder, Tina Lyberaki — an educator, physicist, and mentor with over a decade of experience teaching ambitious students across Monaco, the French Riviera, Switzerland, and the UK.</p>
+                <p>Tina began her academic path at University College London (UCL), where she studied physics at one of the world's top institutions.</p>
+                <p>But her most significant recognition came not from lecture halls, but from one-on-one mentorship — helping students unlock their academic potential and gain admission to the most selective universities.</p>
+                <p>Her teaching approach was shaped by the intersection of academic precision, emotional intelligence, and a deep understanding of how individuals learn. Tina looks beyond conventional methods, focusing instead on creating an intellectually rich, confidence-building experience tailored to each learner.</p>
+                <p>This philosophy became the foundation of Athena Academia — an institution designed to deliver high-level academic results through personalisation, strategic thinking, and human connection.</p>
+                <p>Tina remains actively involved as a tutor, empowering students' minds and inspiring their futures.</p>
+            </div>
+            <div class="about-image">
+                <img src="images/founder.jpg" alt="Tina Lyberaki, Founder of Athena Academia">
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="images/icon-tutoring.svg" alt="Private Tutoring">
+                    </div>
+                    <h3>Private Tutoring</h3>
+                    <p>Personalized one-on-one sessions tailored to individual learning needs and goals.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="images/icon-university.svg" alt="University Admissions">
+                    </div>
+                    <h3>University Admissions</h3>
+                    <p>Strategic guidance for gaining admission to the world's most selective universities.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="images/icon-curriculum.svg" alt="Curriculum Support">
+                    </div>
+                    <h3>Curriculum Support</h3>
+                    <p>Comprehensive assistance with various international curricula and examination boards.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h3>Email</h3>
+                        <p>info@athena-academia.com</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>Location</h3>
+                        <p>Monaco & French Riviera</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="index.html">Athena Academia</a>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Athena Academia. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
