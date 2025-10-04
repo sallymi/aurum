@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import { Poppins, Playfair_Display } from 'next/font/google';
 import './globals.css';
+import Footer from '@/components/Footer'
+import Header from '@/components/Header'
 
 const poppins = Poppins({
   weight: ['300', '400', '500', '600'],
@@ -29,7 +31,9 @@ export default function RootLayout({
   return (
     <html lang="zh" className={`${poppins.variable} ${playfair.variable}`}>
       <body className="font-body bg-light text-primary">
+        <Header />
         {children}
+        <Footer />   {/* ← 全局 Footer */}
       </body>
     </html>
   );

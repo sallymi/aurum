@@ -1,53 +1,33 @@
-"use client";
-
-import React, { useState } from 'react';
-import Link from 'next/link';
+'use client'
+import { useEffect, useState } from 'react'
 
 export default function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false)
+
+  useEffect(() => {
+    const handle = () => setScrolled(window.scrollY > 0)
+    window.addEventListener('scroll', handle)
+    return () => window.removeEventListener('scroll', handle)
+  }, [])
 
   return (
-    <header className="fixed w-full bg-white shadow-md z-50" data-class="header">
-      <div className="container mx-auto px-4">
-        <div className="flex justify-between items-center py-4">
-          <div className="text-2xl font-heading font-bold text-primary" data-class="logo">
-            <Link href="/">Athena Academia</Link>
-          </div>
-          
-          {/* Desktop Navigation */}
-          <nav className="hidden md:block" data-class="nav">
-            <ul className="flex space-x-8">
-              <li><Link href="/" className="text-primary hover:text-secondary transition-colors">首页</Link></li>
-              <li><Link href="#services" className="text-primary hover:text-secondary transition-colors">服务</Link></li>
-              <li><Link href="#about" className="text-primary hover:text-secondary transition-colors">关于</Link></li>
-              <li><Link href="#contact" className="text-primary hover:text-secondary transition-colors">联系</Link></li>
-            </ul>
-          </nav>
-          
-          {/* Mobile Menu Button */}
-          <button 
-            className="md:hidden text-primary"
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-            data-class="menu-button"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d={isMenuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"} />
-            </svg>
-          </button>
-        </div>
-        
-        {/* Mobile Navigation */}
-        {isMenuOpen && (
-          <nav className="md:hidden py-4 border-t" data-class="mobile-nav">
-            <ul className="flex flex-col space-y-4">
-              <li><Link href="/" className="block text-primary hover:text-secondary transition-colors">首页</Link></li>
-              <li><Link href="#services" className="block text-primary hover:text-secondary transition-colors">服务</Link></li>
-              <li><Link href="#about" className="block text-primary hover:text-secondary transition-colors">关于</Link></li>
-              <li><Link href="#contact" className="block text-primary hover:text-secondary transition-colors">联系</Link></li>
-            </ul>
-          </nav>
-        )}
+    <header className={`fixed top-0 left-0 right-0 z-50 h-20 bg-white shadow-md`}>
+      <div className="max-w-7xl mx-auto px-6 h-full flex items-center justify-between">
+        {/* Logo文案：Athena → Aurum Education */}
+        <a href="/" className="text-2xl font-bold text-sky-500">Aurum Education</a>
+
+        <nav className="hidden md:flex gap-6 text-sm font-medium items-center">
+          <a href="/about" className="hover:text-sky-500 transition">ABOUT</a>
+          <a href="/student-services" className="hover:text-sky-500 transition">STUDENT SERVICES</a>
+          <a href="/" className="w-10 h-10 rounded-full bg-gray-200 border-2 border-sky-500 overflow-hidden hover:scale-105 transition">
+            <img src="/images/icon-university.svg" alt="User" className="w-full h-full object-cover" />
+          </a>
+          <a href="/adult-services" className="hover:text-sky-500 transition">ADULT SERVICES</a>
+          <a href="#contact" className="hover:text-sky-500 transition">CONTACT</a>
+        </nav>
+
+        <a href="#consultation" className="px-4 py-2 rounded border border-sky-500 text-sky-500 hover:bg-sky-500 hover:text-white transition">GET A CONSULTATION</a>
       </div>
     </header>
-  );
+  )
 }
