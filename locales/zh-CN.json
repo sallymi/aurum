@@ -211,5 +211,15 @@
     "comingSoon": "即将推出",
     "comingSoonDescription": "我们正在为您准备最新的教育洞察和新闻。敬请期待！",
     "backToHome": "返回首页"
+  },
+  "newsletter": {
+    "title": "订阅我们的新闻通讯",
+    "description": "获取最新的教育洞察、技巧和独家内容，直接发送到您的邮箱。",
+    "emailPlaceholder": "请输入您的邮箱地址",
+    "subscribeCta": "立即订阅",
+    "subscribing": "订阅中...",
+    "successMessage": "感谢您的订阅！请查看您的邮箱确认订阅。",
+    "errorMessage": "出现了一些问题，请重试。",
+    "invalidEmail": "请输入有效的邮箱地址"
   }
 }

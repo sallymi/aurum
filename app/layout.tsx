@@ -19,7 +19,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: 'Athena Academia - 专业学术辅导',
+  title: 'Aurum Education',
   description: '提供专业的学术辅导、大学申请和课程规划服务',
 };
 

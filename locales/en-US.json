@@ -211,5 +211,15 @@
     "comingSoon": "Coming Soon",
     "comingSoonDescription": "We're working on bringing you the latest educational insights and news. Stay tuned for updates!",
     "backToHome": "Back to Home"
+  },
+  "newsletter": {
+    "title": "Subscribe to Our Newsletter",
+    "description": "Get the latest educational insights, tips, and exclusive content delivered to your inbox.",
+    "emailPlaceholder": "Enter your email address",
+    "subscribeCta": "Subscribe Now",
+    "subscribing": "Subscribing...",
+    "successMessage": "Thank you for subscribing! Check your email for confirmation.",
+    "errorMessage": "Something went wrong. Please try again.",
+    "invalidEmail": "Please enter a valid email address"
   }
 }

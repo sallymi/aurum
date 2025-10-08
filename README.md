@@ -1,6 +1,6 @@
-# Athena Academia - Next.js 13 项目
+# Aurum Education - Next.js 13 项目
 
-基于 Next.js 13 构建的 Athena Academia 学术辅导网站。
+基于 Next.js 13 构建的 Aurum Education 学术辅导网站。
 
 ## 技术栈
 
@@ -46,6 +46,14 @@ vercel --prod
 ## 设计令牌
 
 设计令牌存储在 `lib/design.ts` 中，包含颜色、字体、阴影等设计变量。
+
+## 环境变量
+# Mailchimp配置获取方法：
+#    - API Key: Mailchimp账户 > Account > Extras > API keys
+#    - Audience ID: Audience > Settings > Audience name and defaults
+#    - Server Prefix: API Key中的最后部分（如：abc123def456-us1中的us1）
+# 如果使用Gmail，需要启用"两步验证"并生成"应用密码"
+# 1. SMTP_PASS应该使用应用密码，而不是普通密码
 
 ## 部署
 
