@@ -39,8 +39,8 @@ export default function EmailForm({
   const [status, setStatus] = useState<'idle' | 'success' | 'error'>('idle')
   const [errorMessage, setErrorMessage] = useState('')
 
-  const serviceOptions = t('form.options.services.options')
-  const requirementOptions = t('form.options.requirements')
+  const serviceOptions = t('form.options.services.options') as string[];
+  const requirementOptions = t('form.options.requirements') as string[];
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target
