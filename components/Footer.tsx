@@ -19,7 +19,12 @@ export default function FooterAthena() {
           {/* Navigation */}
           <div>
             <h6 className="font-bold mb-4">{t('footer.navigation.title')}</h6>
-            <ul className="space-y-2 text-sm"><li><Link href="/about">{t('footer.navigation.aboutUs')}</Link></li><li><Link href="/student-services">{t('footer.navigation.studentServices')}</Link></li><li><Link href="/adult-services">{t('footer.navigation.adultServices')}</Link></li></ul>
+            <ul className="space-y-2 text-sm">
+              <li><Link href="/about">{t('footer.navigation.aboutUs')}</Link></li>
+              <li><Link href="/student-services">{t('footer.navigation.studentServices')}</Link></li>
+              <li><Link href="/adult-services">{t('footer.navigation.adultServices')}</Link></li>
+              <li><Link href="/blog">{t('footer.navigation.news')}</Link></li>
+            </ul>
           </div>
           {/* Social Media */}
           <div>
