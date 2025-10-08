@@ -1,0 +1,214 @@
+{
+  "header": {
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "studentServices": "Student Services",
+      "adultServices": "Adult Services",
+      "news": "News"
+    },
+    "getInTouch": "GET IN TOUCH",
+    "newsletter": "Sign up newsletter"
+  },
+  "hero": {
+    "title": "Aurum Education believes in harnessing the power to discern the world with a lens of intellectual curiosity",
+    "subtitle": "Aurum Education believes in harnessing the power to discern the world with a lens of intellectual curiosity, intention and tolerance. The concept of a student does not end at graduation, but rather is a life-long passion and process. Our educators are dedicated to help discover the beauty of cognition through various arts and subjects, leading to personal fulfilment.",
+    "cta": "Get Started"
+  },
+  "services": {
+    "student": {
+      "title": "Student Services",
+      "description": "Comprehensive educational support and guidance for students",
+      "items": [
+        "500 Greatest Reads",
+        "International Writing Competitions",
+        "The Grand Tour",
+        "International Curriculum",
+        "University Admissions"
+      ],
+      "learnMore": "Learn More"
+    },
+    "adult": {
+      "title": "Adult Services",
+      "description": "Professional educational consulting for adult learners",
+      "items": [
+        "Intellectual Enrichment",
+        "Culture",
+        "Conversational Fluency",
+        "Business English"
+      ],
+      "learnMore": "Learn More"
+    }
+  },
+  "about": {
+    "impact": {
+      "title": "Our Impact",
+      "content": "Aurum Education has an impact that exceeds a private education institute; it is a platform dedicated to fostering discernment, intellectual curiosity, and a lifelong passion for self-enrichment. Since 2015, we have supported students from all over the world, not just by helping them achieve outstanding academic results and gain admission to top universities in the UK, the US, and Canada, but also by guiding them to cultivate critical thinking coupled by a growth mindset."
+    },
+    "belief": {
+      "title": "Our Belief",
+      "content": "We believe that the significance of education goes far beyond exams and standardized curricula. True learning lies in stimulating curiosity, encouraging students to explore and take intellectual risks, while also helping them establish interdisciplinary connections and use knowledge to understand and interpret the world."
+    },
+    "educators": {
+      "title": "Our Educators",
+      "content": "Our educators differ in their approach as they inspire a love for the subject through their tailored, bespoke approach. We believe in consistency and a continued approach that helps the student discover the lateral connections in the inter-disciplinary academics."
+    }
+  },
+  "footer": {
+    "navigation": {
+      "title": "NAVIGATION",
+      "aboutUs": "About Us",
+      "studentServices": "Student Services",
+      "adultServices": "Adult Services"
+    },
+    "socialMedia": {
+      "title": "SOCIAL MEDIA",
+      "wechatTitle": "WeChat QR Code"
+    },
+    "wechatModal": {
+      "title": "WeChat QR Code",
+      "qrCodeText": "WeChat QR Code",
+      "scanText": "Scan to follow our WeChat",
+      "description": "Scan the QR code above to follow our WeChat official account for the latest educational information and service updates."
+    },
+    "copyright": "© 2025 Aurum Education · Privacy Policy · Developed by Aurum"
+  },
+  "adultServices": {
+    "hero": {
+      "title": "The value of bespoke learning",
+      "description": "Aurum Education believes in the value of bespoke learning to help students maximize their potential and gain confidence to realise their dreams."
+    },
+    "intro": "Whether it is discovering the world through a new language or subject, adults are encouraged to pick up right where they left off and find passions through personal enrichment.",
+    "services": {
+      "intellectualEnrichment": {
+        "title": "Intellectual Enrichment",
+        "description": "Bespoke courses on Philosophy, History, Technology, Science, Arts and more."
+      },
+      "culture": {
+        "title": "Culture",
+        "description": "Curated visits with professional lecturers at art and architecture institutions."
+      },
+      "conversationalFluency": {
+        "title": "Conversational fluency",
+        "description": "Proactive, structured and intentional lesson plans to help achieve your learning goals."
+      },
+      "businessEnglish": {
+        "title": "Business English",
+        "description": "Learn the cultural nuances and how to navigate interviews or industry specific diction with fluency."
+      }
+    }
+  },
+  "studentServices": {
+    "hero": {
+      "title": "The value of bespoke learning",
+      "description": "Aurum Education believes in the value of bespoke learning to help students maximize their potential and gain confidence to realise their dreams."
+    },
+    "intro": "Through reading and writing, students are equipped with the skills to succeed on standardised tests, international writing competitions, the interpretation of literature and ultimately finding an academic passion.",
+    "services": {
+      "greatestReads": {
+        "title": "500 Greatest Reads",
+        "description": "By way of exposure to quality literature, we train our students to analyse, comprehend, internalise and discuss the classic novels written for each age group. This will attune students to facilitate knowledge acquisition and become a deep reader."
+      },
+      "writingCompetitions": {
+        "title": "International Writing Competitions",
+        "items": [
+          "The John Locke Global Essay Prize",
+          "The Harvard International Review",
+          "The Concord Review",
+          "Scholastic Arts and Writing Awards"
+        ]
+      },
+      "grandTour": {
+        "title": "The Grand Tour",
+        "description": "Explore the world through the perspective of literature. Studying the prized literary works from each city, scholars will step into the city of the author and discover their philosophy, intention and inspiration."
+      },
+      "curriculumCertifications": {
+        "title": "Curriculum Certifications",
+        "description": "Our tutors are experienced in multidisciplinary subjects across the boards of IGCSE, GCSE, AP, IB. They will guide students to success in navigating exam requirements and preparation."
+      },
+      "universityAdmissions": {
+        "title": "University Admissions and Support",
+        "items": [
+          "Developing Application Angle",
+          "Strategic Decision Making",
+          "Curation of College Lists",
+          "Extracurricular Planning",
+          "Personal statements",
+          "Class selection"
+        ]
+      }
+    }
+  },
+  "form": {
+    "title": "Request a Tutor or Consultation",
+    "description": "Please fill out the following information and we will get back to you soon",
+    "submit": "Submit Request",
+    "submitting": "Submitting...",
+    "success": "Request submitted successfully! We will get back to you soon.",
+    "error": "Submission failed, please try again later",
+    "fields": {
+      "title": "Title",
+      "firstName": "First Name",
+      "surname": "Surname",
+      "email": "Email",
+      "telephone": "Telephone",
+      "address1": "Address 1",
+      "address2": "Address 2",
+      "postcode": "Postcode",
+      "country": "Country",
+      "studentName": "Student Name",
+      "schoolYear": "School Year",
+      "currentSchool": "Current School",
+      "goal": "Goal",
+      "servicesRequired": "Service(s) Required",
+      "tutoringRequirements": "Tutoring Requirements / Education Consultancy Requirements",
+      "datesAndTimes": "Dates and Times Required",
+      "additionalInfo": "Any other information",
+      "additionalInfoDesc": "Please give details of any special educational needs"
+    },
+    "sections": {
+      "studentInfo": "Student Information"
+    },
+    "options": {
+      "titles": {
+        "select": "Select Title",
+        "mr": "Mr",
+        "mrs": "Mrs",
+        "ms": "Ms",
+        "dr": "Dr",
+        "prof": "Prof"
+      },
+      "services": {
+        "select": "Select Service",
+        "options": [
+          "One-to-One Tutoring",
+          "Online Group Courses",
+          "Educational Consultancy/Advice",
+          "Other"
+        ]
+      },
+      "requirements": [
+        "500 Greatest Reads",
+        "International Writing Competitions",
+        "The Grand Tour",
+        "IGSCE, GSCE, IB, AP, A-Levels",
+        "8+, 11+, 13+, 16+",
+        "University Admissions and Support",
+        "Business English"
+      ]
+    },
+    "validation": {
+      "requiredFields": "Please fill in all required fields (marked with *)",
+      "selectRequirements": "Please select at least one tutoring requirement",
+      "invalidEmail": "Please enter a valid email address",
+      "networkError": "Network error, please check your connection"
+    }
+  },
+  "blog": {
+    "title": "News & Insights",
+    "subtitle": "Stay updated with the latest educational insights, news, and resources from Aurum Education",
+    "comingSoon": "Coming Soon",
+    "comingSoonDescription": "We're working on bringing you the latest educational insights and news. Stay tuned for updates!",
+    "backToHome": "Back to Home"
+  }
+}

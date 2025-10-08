@@ -1,0 +1,214 @@
+{
+  "header": {
+    "nav": {
+      "home": "首页",
+      "about": "关于我们",
+      "studentServices": "学生服务",
+      "adultServices": "成人服务",
+      "news": "新闻"
+    },
+    "getInTouch": "联系我们",
+    "newsletter": "订阅新闻通讯"
+  },
+  "hero": {
+    "title": "Aurum Education相信通过智慧好奇心的视角来洞察世界的力量",
+    "subtitle": "Aurum Education相信通过智慧好奇心、意图和宽容的视角来洞察世界的力量。学生的概念不会在毕业时结束，而是一个终生的热情和过程。我们的教育工作者致力于通过各种艺术和学科帮助发现认知的美，从而实现个人成就。",
+    "cta": "立即咨询"
+  },
+  "services": {
+    "student": {
+      "title": "学生服务",
+      "description": "为学生提供全方位的教育支持和指导",
+      "items": [
+        "500本经典读物",
+        "国际写作竞赛",
+        "环球之旅",
+        "国际课程",
+        "大学申请"
+      ],
+      "learnMore": "了解更多"
+    },
+    "adult": {
+      "title": "成人服务", 
+      "description": "为成人学习者提供专业的教育咨询",
+      "items": [
+        "智力充实",
+        "文化",
+        "对话流利度",
+        "商务英语"
+      ],
+      "learnMore": "了解更多"
+    }
+  },
+  "about": {
+    "impact": {
+      "title": "我们的影响",
+      "content": "Aurum Education的影响超越了私人教育机构的范畴；它是一个致力于培养洞察力、智力好奇心和终身自我充实热情的平台。自2015年以来，我们支持来自世界各地的学生，不仅帮助他们取得优异的学术成绩并获得英国、美国和加拿大顶尖大学的录取，还指导他们培养批判性思维和成长心态。"
+    },
+    "belief": {
+      "title": "我们的信念",
+      "content": "我们相信教育的意义远远超越考试和标准化课程。真正的学习在于激发好奇心，鼓励学生探索和承担智力风险，同时帮助他们建立跨学科联系，运用知识理解和诠释世界。"
+    },
+    "educators": {
+      "title": "我们的教育者",
+      "content": "我们的教育者在方法上有所不同，他们通过量身定制的个性化方法激发对学科的热爱。我们相信一致性和持续的方法，帮助学生发现跨学科学术中的横向联系。"
+    }
+  },
+  "footer": {
+    "navigation": {
+      "title": "导航",
+      "aboutUs": "关于我们",
+      "studentServices": "学生服务",
+      "adultServices": "成人服务"
+    },
+    "socialMedia": {
+      "title": "社交媒体",
+      "wechatTitle": "微信扫码关注"
+    },
+    "wechatModal": {
+      "title": "微信扫码关注",
+      "qrCodeText": "微信二维码",
+      "scanText": "扫码关注我们的微信",
+      "description": "扫描上方二维码关注我们的微信公众号，获取最新教育资讯和服务信息。"
+    },
+    "copyright": "© 2025 Aurum Education · 隐私政策 · 由 Aurum 开发"
+  },
+  "adultServices": {
+    "hero": {
+      "title": "定制学习的价值",
+      "description": "Aurum Education相信定制学习的价值，帮助学生最大化他们的潜力，获得信心来实现他们的梦想。"
+    },
+    "intro": "无论是通过新语言或学科发现世界，还是鼓励成年人从他们停下的地方重新开始，通过个人充实找到激情。",
+    "services": {
+      "intellectualEnrichment": {
+        "title": "智力充实",
+        "description": "哲学、历史、技术、科学、艺术等定制课程。"
+      },
+      "culture": {
+        "title": "文化",
+        "description": "在艺术和建筑机构与专业讲师进行精心策划的参观。"
+      },
+      "conversationalFluency": {
+        "title": "对话流利度",
+        "description": "积极主动、结构化和有意图的课程计划，帮助您实现学习目标。"
+      },
+      "businessEnglish": {
+        "title": "商务英语",
+        "description": "学习文化细节以及如何流利地应对面试或行业特定词汇。"
+      }
+    }
+  },
+  "studentServices": {
+    "hero": {
+      "title": "定制学习的价值",
+      "description": "Aurum Education相信定制学习的价值，帮助学生最大化他们的潜力，获得信心来实现他们的梦想。"
+    },
+    "intro": "通过阅读和写作，学生具备了在标准化考试、国际写作比赛、文学解读方面取得成功的技能，并最终找到学术激情。",
+    "services": {
+      "greatestReads": {
+        "title": "500本最佳读物",
+        "description": "通过接触优质文学作品，我们训练学生分析、理解、内化和讨论为每个年龄段编写的经典小说。这将使学生适应促进知识获取并成为深度阅读者。"
+      },
+      "writingCompetitions": {
+        "title": "国际写作比赛",
+        "items": [
+          "约翰·洛克全球论文奖",
+          "哈佛国际评论",
+          "康科德评论",
+          "学术艺术与写作奖"
+        ]
+      },
+      "grandTour": {
+        "title": "大游学",
+        "description": "通过文学的视角探索世界。学习每个城市的珍贵文学作品，学者将走进作者的城市，发现他们的哲学、意图和灵感。"
+      },
+      "curriculumCertifications": {
+        "title": "课程认证",
+        "description": "我们的导师在IGCSE、GCSE、AP、IB等多学科领域经验丰富。他们将指导学生成功应对考试要求和准备。"
+      },
+      "universityAdmissions": {
+        "title": "大学录取和支持",
+        "items": [
+          "制定申请角度",
+          "战略决策制定",
+          "策划大学名单",
+          "课外活动规划",
+          "个人陈述",
+          "课程选择"
+        ]
+      }
+    }
+  },
+  "form": {
+    "title": "申请导师或咨询",
+    "description": "请填写以下信息，我们会尽快回复您",
+    "submit": "提交申请",
+    "submitting": "提交中...",
+    "success": "申请提交成功！我们会尽快回复您。",
+    "error": "提交失败，请稍后重试",
+    "fields": {
+      "title": "称谓",
+      "firstName": "名字",
+      "surname": "姓氏",
+      "email": "邮箱",
+      "telephone": "电话",
+      "address1": "地址1",
+      "address2": "地址2",
+      "postcode": "邮编",
+      "country": "国家",
+      "studentName": "学生姓名",
+      "schoolYear": "学年",
+      "currentSchool": "当前学校",
+      "goal": "目标",
+      "servicesRequired": "所需服务",
+      "tutoringRequirements": "辅导要求 / 教育咨询要求",
+      "datesAndTimes": "所需日期和时间",
+      "additionalInfo": "其他信息",
+      "additionalInfoDesc": "请提供任何特殊教育需求的详细信息"
+    },
+    "sections": {
+      "studentInfo": "学生信息"
+    },
+    "options": {
+      "titles": {
+        "select": "选择称谓",
+        "mr": "先生",
+        "mrs": "夫人",
+        "ms": "女士",
+        "dr": "博士",
+        "prof": "教授"
+      },
+      "services": {
+        "select": "选择服务",
+        "options": [
+          "一对一辅导",
+          "在线小组课程",
+          "教育咨询/建议",
+          "其他"
+        ]
+      },
+      "requirements": [
+        "500本经典读物",
+        "国际写作比赛",
+        "大游学",
+        "IGSCE, GSCE, IB, AP, A-Levels",
+        "8+, 11+, 13+, 16+",
+        "大学申请和支持",
+        "商务英语"
+      ]
+    },
+    "validation": {
+      "requiredFields": "请填写所有必填字段（标有*的字段）",
+      "selectRequirements": "请至少选择一项辅导要求",
+      "invalidEmail": "请输入有效的邮箱地址",
+      "networkError": "网络错误，请检查网络连接"
+    }
+  },
+  "blog": {
+    "title": "新闻与洞察",
+    "subtitle": "获取Aurum Education最新的教育洞察、新闻和资源",
+    "comingSoon": "即将推出",
+    "comingSoonDescription": "我们正在为您准备最新的教育洞察和新闻。敬请期待！",
+    "backToHome": "返回首页"
+  }
+}

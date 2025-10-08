@@ -1,8 +1,10 @@
 'use client'
 import Header from '@/components/Header'
 import { useEffect } from 'react'
+import { useTexts } from '../../lib/texts'
 
 export default function StudentServices() {
+  const { t } = useTexts()
   useEffect(() => {
     const handleScroll = () => {
       const sections = document.querySelectorAll('.service-section')
@@ -28,13 +30,13 @@ export default function StudentServices() {
     
 
       {/* Hero Section */}
-      <section className="relative h-[80vh] min-h-[600px] bg-cover bg-center bg-no-repeat" style={{ backgroundImage: 'url(/images/about-hero.jpg)' }}>
+      <section className="relative h-[80vh] min-h-[600px] bg-cover bg-center bg-no-repeat" style={{ backgroundImage: 'url(/images/student-service.jpg)' }}>
         <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/40" />
         <div className="relative h-full flex items-center justify-center">
           <div className="max-w-4xl mx-auto px-6 text-center">
-            <h1 className="text-6xl font-bold text-white mb-6">Excellent Academic Support for Every Student</h1>
+            <h1 className="text-6xl font-bold text-white mb-6">{t('studentServices.hero.title')}</h1>
             <p className="text-xl text-gray-200 leading-relaxed">
-              Individual academic support for school and university students—from international exams to admission to top tier schools and universities.
+              {t('studentServices.hero.description')}
             </p>
           </div>
         </div>
@@ -43,6 +45,15 @@ export default function StudentServices() {
       {/* Services Section */}
       <section className="bg-white">
         <div className="max-w-7xl mx-auto">
+          <div className="service-section relative bg-white border-b border-gray-300 transition-transform duration-700 ease-out">
+            <div className="sticky top-0 bg-white z-10 border-b border-gray-300">
+              <div className="px-6 py-8 flex items-center">
+                <div className="flex-1">
+                  <h3 className="text-lg font-bold text-gray-900">{t('studentServices.intro')}</h3>
+                </div>
+              </div>
+            </div>
+          </div>
           {/* 01 Section */}
           <div className="service-section relative bg-white border-b border-gray-300 transition-transform duration-700 ease-out">
             <div className="sticky top-0 bg-white z-10 border-b border-gray-300">
@@ -51,16 +62,13 @@ export default function StudentServices() {
                   <span className="text-4xl font-bold text-gray-900">01</span>
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-4xl font-bold text-gray-900">GCSE, IB, and A-Level</h3>
+                  <h3 className="text-4xl font-bold text-gray-900">{t('studentServices.services.greatestReads.title')}</h3>
                 </div>
               </div>
             </div>
             <div className="px-6 py-12 ml-24">
               <ul className="space-y-4 text-lg text-gray-700">
-                <li>• Preparation for written exams</li>
-                <li>• Assistance with scholarship papers</li>
-                <li>• Interview preparation</li>
-                <li>• School visits</li>
+                <li>{t('studentServices.services.greatestReads.description')}</li>
               </ul>
             </div>
           </div>
@@ -73,13 +81,15 @@ export default function StudentServices() {
                   <span className="text-4xl font-bold text-gray-900">02</span>
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-4xl font-bold text-gray-900">500 Greatest Reads</h3>
+                  <h3 className="text-4xl font-bold text-gray-900">{t('studentServices.services.writingCompetitions.title')}</h3>
                 </div>
               </div>
             </div>
             <div className="px-6 py-12 ml-24">
               <ul className="space-y-4 text-lg text-gray-700">
-                <li>• Practice and cultivate reading comprehension and deep reading skills with literary classics</li>
+                {t('studentServices.services.writingCompetitions.items').map((item: string, index: number) => (
+                  <li key={index}>{item}</li>
+                ))}
               </ul>
             </div>
           </div>
@@ -92,14 +102,13 @@ export default function StudentServices() {
                   <span className="text-4xl font-bold text-gray-900">03</span>
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-4xl font-bold text-gray-900">IGSCE, GSCE, IB and A-level</h3>
+                  <h3 className="text-4xl font-bold text-gray-900">{t('studentServices.services.grandTour.title')}</h3>
                 </div>
               </div>
             </div>
             <div className="px-6 py-12 ml-24">
               <ul className="space-y-4 text-lg text-gray-700">
-                <li>• Our tutors are experienced and professional across the exams on all subjects across the spectrum</li>
-                <li>• The tutors we introduce to students have a thorough knowledge of the various exam boards</li>
+                <li>{t('studentServices.services.grandTour.description')}</li>
               </ul>
             </div>
           </div>
@@ -112,21 +121,41 @@ export default function StudentServices() {
                   <span className="text-4xl font-bold text-gray-900">04</span>
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-4xl font-bold text-gray-900">International Writing Competitions</h3>
+                  <h3 className="text-4xl font-bold text-gray-900">{t('studentServices.services.curriculumCertifications.title')}</h3>
                 </div>
               </div>
             </div>
             <div className="px-6 py-12 ml-24">
               <ul className="space-y-4 text-lg text-gray-700">
-                <li>• The John Locke Global Essay Prize</li>
-                <li>• The Harvard International Review</li>
-                <li>• The Concord Review</li>
-                <li>• Scholastic Arts and Writing Awards</li>
+                <li>{t('studentServices.services.curriculumCertifications.description')}</li>
+                
               </ul>
             </div>
           </div>
 
           {/* 05 Section */}
+          {/* <div className="service-section relative bg-white border-b border-gray-300 transition-transform duration-700 ease-out">
+            <div className="sticky top-0 bg-white z-10 border-b border-gray-300">
+              <div className="px-6 py-8 flex items-center">
+                <div className="w-24 flex-shrink-0">
+                  <span className="text-4xl font-bold text-gray-900">05</span>
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-4xl font-bold text-gray-900">8+, 11+, 13+, 16+</h3>
+                </div>
+              </div>
+            </div>
+            <div className="px-6 py-12 ml-24">
+              <ul className="space-y-4 text-lg text-gray-700">
+                <li>• Preparation for written exams</li>
+                <li>• Assistance with scholarship papers</li>
+                <li>• Interview preparation</li>
+                <li>• School visits</li>
+              </ul>
+            </div>
+          </div> */}
+
+          {/* 06 Section */}
           <div className="service-section relative bg-white border-b border-gray-300 transition-transform duration-700 ease-out">
             <div className="sticky top-0 bg-white z-10 border-b border-gray-300">
               <div className="px-6 py-8 flex items-center">
@@ -134,38 +163,15 @@ export default function StudentServices() {
                   <span className="text-4xl font-bold text-gray-900">05</span>
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-4xl font-bold text-gray-900">University Admissions</h3>
+                  <h3 className="text-4xl font-bold text-gray-900">{t('studentServices.services.universityAdmissions.title')}</h3>
                 </div>
               </div>
             </div>
             <div className="px-6 py-12 ml-24">
               <ul className="space-y-4 text-lg text-gray-700">
-                <li>• Developing Application Angle</li>
-                <li>• Strategic Decision Making</li>
-                <li>• Curation of College Lists</li>
-                <li>• Extracurricular Planning</li>
-                <li>• Personal statements</li>
-              </ul>
-            </div>
-          </div>
-
-          {/* 06 Section */}
-          <div className="service-section relative bg-white border-b border-gray-300 transition-transform duration-700 ease-out">
-            <div className="sticky top-0 bg-white z-10 border-b border-gray-300">
-              <div className="px-6 py-8 flex items-center">
-                <div className="w-24 flex-shrink-0">
-                  <span className="text-4xl font-bold text-gray-900">06</span>
-                </div>
-                <div className="flex-1">
-                  <h3 className="text-4xl font-bold text-gray-900">University Support & Grand Tour</h3>
-                </div>
-              </div>
-            </div>
-            <div className="px-6 py-12 ml-24">
-              <ul className="space-y-4 text-lg text-gray-700">
-                <li>• Class selection</li>
-                <li>• The Grand Tour — Summer Grand Tour Trip</li>
-                <li>• The Grand Tour — Winter Grand Tour Trip</li>
+                {t('studentServices.services.universityAdmissions.items').map((item: string, index: number) => (
+                  <li key={index}>{item}</li>
+                ))}
               </ul>
             </div>
           </div>

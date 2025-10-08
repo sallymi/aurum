@@ -11,6 +11,9 @@ const config: Config = {
       colors: {
         brand: '#0ea5e9', // sky-500
       },
+      fontFamily: {
+        georgia: ['Georgia', 'serif'],
+      },
       fontSize: {
         '48': '3rem',
         '18': '1.125rem',

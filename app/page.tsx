@@ -15,6 +15,7 @@ export default function Home() {
       <Header />
       <Hero />
       <Services />
+      <section className="py-12 bg-white"></section>
       {/* <AboutUs /> */}
       {/* <StudentServices /> */}
       {/* <AdultServices /> */}

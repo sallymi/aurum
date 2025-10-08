@@ -1,5 +1,9 @@
 
+'use client'
+import { useTexts } from '../../lib/texts'
+
 export default function AboutPage() {
+  const { t } = useTexts()
   return (
     <main className="text-white">
 
@@ -17,23 +21,23 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-3 gap-12 items-start">
             <div className="space-y-6">
-              <h3 className="text-3xl font-bold text-gray-900 mb-6">Our Impact</h3>
+              <h3 className="text-3xl font-bold text-gray-900 mb-6">{t('about.impact.title')}</h3>
               <p className="text-lg leading-relaxed text-gray-700">
-                Aurum Education has an impact that exceeds a private education institute; it is a platform dedicated to fostering discernment, intellectual curiosity, and a lifelong passion for self-enrichment. Since 2015, we have supported students from all over the world, not just by helping them achieve outstanding academic results and gain admission to top universities in the UK, the US, and Canada, but also by guiding them to cultivate critical thinking coupled by a growth mindset.
+                {t('about.impact.content')}
               </p>
             </div>
             
             <div className="space-y-6">
-              <h3 className="text-3xl font-bold text-gray-900 mb-6">Our Belief</h3>
+              <h3 className="text-3xl font-bold text-gray-900 mb-6">{t('about.belief.title')}</h3>
               <p className="text-lg leading-relaxed text-gray-700">
-                We believe that the significance of education goes far beyond exams and standardized curricula. True learning lies in stimulating curiosity, encouraging students to explore and take intellectual risks, while also helping them establish interdisciplinary connections and use knowledge to understand and interpret the world.
+                {t('about.belief.content')}
               </p>
             </div>
             
             <div className="space-y-6">
-              <h3 className="text-3xl font-bold text-gray-900 mb-6">Our Educators</h3>
+              <h3 className="text-3xl font-bold text-gray-900 mb-6">{t('about.educators.title')}</h3>
               <p className="text-lg leading-relaxed text-gray-700">
-                Our educators differ in their approach as they inspire a love for the subject through their tailored, bespoke approach. We believe in consistency and a continued approach that helps the student discover the lateral connections in the inter-disciplinary academics.
+                {t('about.educators.content')}
               </p>
             </div>
           </div>
