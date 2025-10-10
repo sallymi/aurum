@@ -23,6 +23,7 @@ export const metadata: Metadata = {
   description: '提供专业的学术辅导、大学申请和课程规划服务',
 };
 
+
 export default function RootLayout({
   children,
 }: {
@@ -33,7 +34,6 @@ export default function RootLayout({
       <body className="font-body bg-light text-primary">
         <Header />
         {children}
-        <Footer />   {/* ← 全局 Footer */}
       </body>
     </html>
   );
