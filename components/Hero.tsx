@@ -14,7 +14,7 @@ export default function Hero() {
           <div className="flex gap-4"><button className="px-6 py-3 rounded bg-sky-500 text-white hover:bg-sky-600 transition">Get a Consultation</button><button className="px-6 py-3 rounded border border-sky-500 text-sky-500 hover:bg-sky-500 hover:text-white transition">Learn More</button></div>*/}
         </div>
         <div className="relative h-80 bg-gray-200 rounded-xl mt-6">
-          <img src="/images/grey-box.jfif" alt="man" className="absolute inset-0 w-full h-full object-cover rounded-xl"/>
+          <img src="/images/grey-box.png" alt="man" className="absolute inset-0 w-full h-full object-cover rounded-xl"/>
         </div>
       </div>
     </section>
