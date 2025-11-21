@@ -59,13 +59,14 @@ export default function FooterAthena() {
           <h3 className="text-xl font-bold mb-4 text-gray-900">{t('footer.wechatModal.title')}</h3>
           <div className="mb-4">
             <div className="w-48 h-48 mx-auto bg-gray-100 border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center">
-              <div className="text-center text-gray-500">
+              {/* <div className="text-center text-gray-500">
                 <svg className="w-16 h-16 mx-auto mb-2" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M8.691 2.188C8.691 1.533 8.158 1 7.503 1s-1.188.533-1.188 1.188.533 1.188 1.188 1.188 1.188-.533 1.188-1.188zM5.785 7.503c0-.655-.533-1.188-1.188-1.188S3.409 6.848 3.409 7.503s.533 1.188 1.188 1.188 1.188-.533 1.188-1.188zM20.597 11.104c-.655 0-1.188.533-1.188 1.188s.533 1.188 1.188 1.188 1.188-.533 1.188-1.188-.533-1.188-1.188-1.188zM17.785 17.503c0-.655-.533-1.188-1.188-1.188s-1.188.533-1.188 1.188.533 1.188 1.188 1.188 1.188-.533 1.188-1.188z"/>
                 </svg>
                 <p className="text-sm">{t('footer.wechatModal.qrCodeText')}</p>
                 <p className="text-xs text-gray-400 mt-1">{t('footer.wechatModal.scanText')}</p>
-              </div>
+              </div> */}
+              <img src="/images/wechat-qr.jpg" alt="WeChat QR" className="w-full h-full object-contain" />
             </div>
           </div>
           <p className="text-sm text-gray-600">
