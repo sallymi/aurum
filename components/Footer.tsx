@@ -40,6 +40,13 @@ export default function FooterAthena() {
               >
                 <FaWeixin />
               </button>
+              <a href="https://www.instagram.com/aurumeducation_?igsh=MTBlcnE4MXRta2w4aA%3D%3D&utm_source=qr" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:text-pink-500 transition-colors"
+                title="Instagram">
+                <FaInstagram />
+              </a>
               {/* <a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin />
               </a> */}
