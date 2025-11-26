@@ -29,7 +29,7 @@ export default function FooterSimple() {
           <div>
             <h6 className="font-bold mb-4">{t('footer.socialMedia.title')}</h6>
             <div className="flex gap-4 text-2xl">
-              <a href="https://wa.me/+33632134167" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/+4407960267198" target="_blank" rel="noopener noreferrer">
                 <FaWhatsapp />
               </a>
               <button 
